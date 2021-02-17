@@ -1,0 +1,146 @@
+.slider-area {
+    background-color: #21354E;
+    position: relative;
+
+    .single-slider {
+        padding-top: 130px;
+        padding-bottom: 130px;
+        position: relative;
+        z-index: 999;
+
+        h2 {
+            font-weight: bold;
+            font-size: 62px;
+            line-height: 64px;
+            color: #fff;
+            padding: 0;
+            margin: 0;
+        }
+        p {
+            font-size: 24px;
+            line-height: 36px;
+            color: #B6C3D5;
+            padding-right: 150px;
+            margin: 0;
+            padding-top: 35px;
+            padding-bottom: 35px;
+        }
+        a {
+            font-size: 18px;
+            display: inline-block;
+            background:$theme-color;
+            border-radius: 40px;
+            padding: 15px 55px;
+            color: #fff;
+            font-weight: 400;
+
+            &:hover {
+                background-color: #c45025;
+            }
+        }
+    }
+    .slider-image {
+        position: absolute;
+        bottom: 0;
+        z-index: 0;
+        width: 979px;
+        right: 0;
+
+        img {
+            z-index: 1;
+            max-width: 100%;
+        }
+    }
+}
+
+
+// Responsive 
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+    
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+ 
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .slider-area {
+        .single-slider {
+            padding-bottom: 500px;
+            h2 {
+                font-weight: 700;
+                font-size: 50px;
+            }
+            p {
+                font-size: 18px;
+                line-height: 28px;
+                padding-bottom: 30px;
+                padding-top: 25px;
+            }
+        }
+        .slider-image {
+            width: 800px;
+        }
+    }
+   
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .slider-area {
+        .single-slider {
+            padding-bottom: 370px;
+            padding-top: 60px;
+            text-align: center;
+            h2 {
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 40px;
+                padding-right: 0;
+            }
+            p {
+                font-size: 14px;
+                line-height: 24px;
+                padding-bottom: 25px;
+                padding-top: 20px;
+                padding-right: 0;
+            }
+        }
+        .slider-image {
+            width: 500px;
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .slider-area {
+        .single-slider {
+            padding-bottom: 500px;
+            text-align: center;
+            h2 {
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 50px;
+                padding-right: 0;
+            }
+            p {
+                font-size: 18px;
+                line-height: 28px;
+                padding-bottom: 30px;
+                padding-top: 25px;
+                padding-right: 0;
+            }
+        }
+        .slider-image {
+            width: 700px;
+        }
+    }
+
+}
+ 
