@@ -1,0 +1,44 @@
+.skin-monials-area {
+    background-color: #f6f6f6;
+    .skin-monials-title {
+        h2 {
+            font-weight: bold;
+            font-size: 44px;
+            margin: 0;
+            padding-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 30px;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    .skin-slider {
+        .single-slider {
+            background: #FFFFFF;
+            border-radius: 10px;
+            padding: 20px 30px;
+            @include transition(0.3s);
+
+            &:hover {
+                box-shadow: 0px 35px 55px rgba(75, 75, 75, 0.26);
+            }
+
+            img {
+                margin-top: -60px;
+                width: 100px !important;
+                height: 100px !important;
+            }
+        }
+    }
+}
+
+.skin-slider {
+    .single-slider {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+}
