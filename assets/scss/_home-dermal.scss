@@ -1,0 +1,66 @@
+.home-dermal-area {
+    .dermal-content {
+        padding-left: 100px;
+    }
+}
+
+// Responsive 
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    .home-dermal-area {
+        .dermal-content {
+            padding-left: 30px;
+        }
+    }
+  
+     
+ }
+ 
+ // Large devices (desktops, 992px and up)
+ @media (min-width: 992px) and (max-width: 1199.98px) { 
+    .home-dermal-area {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        .dermal-content {
+            padding-left: 0px;
+        }
+    }
+ }
+ 
+ // Medium devices (tablets, 768px and up)
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+    .home-dermal-area {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        .dermal-content {
+            padding-left: 0px;
+            padding-top: 60px;
+        }
+    }
+ }
+ // Extra small devices (portrait phones, less than 576px)
+ @media (max-width: 575.98px) { 
+    .home-dermal-area {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        .dermal-content {
+            padding-left: 0px;
+            padding-top: 60px;
+        }
+    }
+ }
+ 
+ // Small devices (landscape phones, 576px and up)
+ @media (min-width: 576px) and (max-width: 767.98px) {
+    .home-dermal-area {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        .dermal-content {
+            padding-left: 0px;
+            padding-top: 60px;
+        }
+    }
+ 
+ }
+  
