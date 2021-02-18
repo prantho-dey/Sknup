@@ -1157,5 +1157,119 @@ label {
     margin-top: 50px;
   }
 }
+.home-botox-area {
+  background-color: #f6f6f6;
+}
+.home-botox-area .botox-content {
+  padding-right: 110px;
+}
+.home-botox-area .botox-image {
+  margin-bottom: -100px;
+}
+
+.section-title span {
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #D96237;
+  margin: 0;
+}
+.section-title h2 {
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 52px;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.section-title p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #21354E;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+.comon-button a {
+  font-size: 18px;
+  background-color: #D96237;
+  color: #fff;
+  padding: 15px 55px;
+  border-radius: 40px;
+  display: inline-block;
+  margin-top: 30px;
+  position: relative;
+}
+.comon-button a i {
+  opacity: 0;
+  margin-left: -10px;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+.comon-button a:hover i {
+  opacity: 1;
+  margin-left: 5px;
+}
+.comon-button a:hover {
+  background-color: #c45025;
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .home-botox-area .botox-content {
+    padding-right: 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .home-botox-area .botox-content {
+    padding-right: 0;
+  }
+
+  .section-title h2 {
+    font-size: 38px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .home-botox-area .botox-content {
+    padding-right: 0px;
+    margin-bottom: 60px;
+  }
+  .home-botox-area .botox-image {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 575.98px) {
+  .home-botox-area .botox-content {
+    padding-right: 0px;
+    margin-bottom: 60px;
+  }
+  .home-botox-area .botox-image {
+    margin-bottom: 60px;
+  }
+
+  .section-title h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .section-title p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .home-botox-area .botox-content {
+    padding-right: 0px;
+    margin-bottom: 60px;
+  }
+  .home-botox-area .botox-image {
+    margin-bottom: 60px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,150 @@
+.home-botox-area {
+    background-color:#f6f6f6;
+ 
+    .botox-content {
+        padding-right: 110px;
+    }
+    .botox-image {
+        margin-bottom: -100px;
+    }
+}
+
+.section-title {
+    span {
+        font-weight: bold;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: $theme-color;
+        margin: 0;
+    }
+    h2 {
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 52px;
+        padding: 0;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    p {
+        font-size: 18px;
+        line-height: 30px;
+        color: $heading-color;
+        font-weight: 400;
+        padding: 0;
+        margin: 0;
+    }
+}
+.comon-button {
+    a {
+        font-size: 18px;
+        background-color: $theme-color;
+        color: #fff;
+        padding: 15px 55px;
+        border-radius: 40px;
+        display: inline-block;
+        margin-top: 30px;
+        position: relative;
+
+        i {
+            // position: absolute;
+            // top: 50%;
+            // transform: translateY(-50%);
+            // content: "";
+            // left: 120px;
+            opacity: 0;
+            margin-left: -10px;
+            @include transition(0.3s);
+        }
+        &:hover i {
+            // left: 160px;
+            opacity: 1;
+            margin-left: 5px;
+        }
+
+        &:hover {
+            background-color: #c45025;
+        }
+    }
+}
+
+
+// Responsive 
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+   
+   .home-botox-area {
+        .botox-content {
+            padding-right: 0;
+        }
+   }
+    
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .home-botox-area {
+        .botox-content {
+            padding-right: 0;
+        }
+   }
+   .section-title {
+        h2 {
+            font-size: 38px;
+        }
+   }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  
+    .home-botox-area {
+        .botox-content {
+            padding-right: 0px;
+            margin-bottom: 60px;
+        }
+        .botox-image {
+            margin-bottom: 60px;
+        }
+    }
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .home-botox-area {
+        .botox-content {
+            padding-right: 0px;
+            margin-bottom: 60px;
+        }
+        .botox-image {
+            margin-bottom: 60px;
+        }
+    }
+    .section-title {
+        h2 {
+            font-size: 30px;
+            line-height: 40px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 26px;
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .home-botox-area {
+        .botox-content {
+            padding-right: 0px;
+            margin-bottom: 60px;
+        }
+        .botox-image {
+            margin-bottom: 60px;
+        }
+    }
+
+}
+ 
