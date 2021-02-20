@@ -154,11 +154,6 @@
 
 // Responsive 
 
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) and (max-width: 1399.98px) { 
-   
-    
-}
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) { 
@@ -172,7 +167,7 @@
     
     .skin-monials-area {
         margin-top: 0;
-        padding-bottom: 30px;
+        padding-bottom: 50px;
         .skin-slider {
             .single-slider {
                 p {
@@ -188,7 +183,7 @@
  
     .skin-monials-area {
         margin-top: 0;
-        padding-bottom: 30px;
+        padding-bottom: 50px;
 
         .skin-monials-title {
             h2 {
@@ -206,11 +201,8 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
     .skin-monials-area {
-        background-color: rebeccapurple;
-    }
-    .skin-monials-area {
         margin-top: 0;
-        padding-bottom: 30px;
+        padding-bottom: 50px;
 
         .skin-monials-title {
             h2 {

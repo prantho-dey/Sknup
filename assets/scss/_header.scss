@@ -84,19 +84,18 @@
             }
         }
     }
+}
+.button {
+    a {
+        font-size: 18px;
+        color: #fff;
+        background-color: $theme-color;
+        padding: 15px 25px;
+        display: inline-block;
+        border-radius: 60px;
 
-    .button {
-        a {
-            font-size: 18px;
-            color: #fff;
-            background-color: $theme-color;
-            padding: 15px 25px;
-            display: inline-block;
-            border-radius: 60px;
-
-            &:hover {
-                background-color: #c45025;
-            }
+        &:hover {
+            background-color: #c45025;
         }
     }
 }

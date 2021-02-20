@@ -133,6 +133,22 @@
 		}
 	})
 
+	// Scroll-top-button
+	$('.scroll-top-button').click(function(){
+		$('html').animate({'scrollTop':'0px'},2000) ;
+	});
+
+	$(window).scroll(function(){
+
+		var scroll = jQuery(window).scrollTop();
+
+		if (scroll > 300) {
+			$('.scroll-top-button').show();
+		}else{
+			$('.scroll-top-button').hide();
+		}
+	});
+
 
 
 

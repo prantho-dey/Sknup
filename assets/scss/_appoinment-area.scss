@@ -1,0 +1,69 @@
+.appointment-area {
+    background-color: $theme-color;
+
+    .appoinment-content {
+        h2 {
+            font-size: 38px;
+            line-height: 52px;
+            margin: 0;
+            color: #fff;
+            padding-bottom: 20px;
+            font-weight: bold;
+        }
+         P {
+            font-size: 18px;
+            line-height: 30px;
+            color: #fff;
+         }
+         .apponiment-button {
+            a {
+                background-color: #fff;
+                color: $theme-color;
+                margin-top: 20px;
+            }
+         }
+    }
+}
+
+
+// Responsive 
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+   
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+      
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .appointment-area {
+        .appoinment-content {
+            h2 {
+                font-size: 30px;
+                line-height: 40px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+   
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .appointment-area .appoinment-content h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
+ 

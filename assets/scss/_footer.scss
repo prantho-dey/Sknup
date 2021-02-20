@@ -1,0 +1,127 @@
+.footer-area {
+    background-color: #21354E;
+
+    .footer-logo {
+        img {
+            width: 170px;
+            height: auto;
+        }
+        .footer-button {
+            margin-top: 40px;
+        }
+    }
+    .footer-procedures {
+        h4 {
+            color: #fff;
+            font-weight: 500;
+            font-size: 24px;
+            text-transform: capitalize;
+            margin-bottom: 40px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                display: block;
+
+                a {
+                    display: block;
+                    color: #f2f2f2;
+                    font-weight: 400;
+                    font-size: 18px;
+                    margin-bottom: 20px;
+
+                    &:hover {
+                        color: $theme-color;
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        margin-bottom: 60px;
+    }
+    .copyright p {
+        padding: 30px;
+        border-top: 1.5px solid #E0E0E0;
+        font-size: 18px;
+        color: #E0E0E0;
+        text-transform: uppercase;
+    }
+}
+
+.scroll-top-button {
+	position: fixed;
+	bottom: 0;
+	right: 60px;
+	background-color: $theme-color;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-size: 20px;
+    @include transition(0.3s);
+
+    &:hover {
+        background-color:#E44810;
+        color: #fff;
+    }
+}
+
+// Responsive 
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+   
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .scroll-top-button {
+        right: 15px;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .footer-area {
+        .footer-logo {
+            margin-bottom: 50px;
+        }
+    }
+    .scroll-top-button {
+        right: 15px;
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .footer-area {
+        .footer {
+            margin-bottom: 50px;
+        }
+    }
+    .scroll-top-button {
+        right: 10px;
+    }
+   
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+ 
+  .footer-area {
+        .footer-logo {
+            margin-bottom: 50px;
+        }
+    }
+    .scroll-top-button {
+        right: 10px;
+    }
+    
+}
+ 
+ 

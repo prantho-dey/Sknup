@@ -469,7 +469,8 @@ label {
   -o-transition: all 0.5s linear 0s;
   transition: all 0.5s linear 0s;
 }
-.header-area .button a {
+
+.button a {
   font-size: 18px;
   color: #fff;
   background-color: #D96237;
@@ -477,7 +478,7 @@ label {
   display: inline-block;
   border-radius: 60px;
 }
-.header-area .button a:hover {
+.button a:hover {
   background-color: #c45025;
 }
 
@@ -1273,6 +1274,9 @@ label {
     font-size: 16px;
     line-height: 26px;
   }
+  .section-title span {
+    font-size: 16px;
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .home-botox-area {
@@ -1511,7 +1515,7 @@ label {
 @media (min-width: 768px) and (max-width: 991.98px) {
   .skin-monials-area {
     margin-top: 0;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
   }
   .skin-monials-area .skin-slider .single-slider p {
     font-size: 16px;
@@ -1520,7 +1524,7 @@ label {
 @media (max-width: 575.98px) {
   .skin-monials-area {
     margin-top: 0;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
   }
   .skin-monials-area .skin-monials-title h2 {
     font-size: 30px;
@@ -1533,12 +1537,8 @@ label {
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .skin-monials-area {
-    background-color: rebeccapurple;
-  }
-
-  .skin-monials-area {
     margin-top: 0;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
   }
   .skin-monials-area .skin-monials-title h2 {
     font-size: 30px;
@@ -1547,6 +1547,143 @@ label {
   .skin-monials-area .skin-monials-title p {
     font-size: 16px;
     line-height: 26px;
+  }
+}
+.appointment-area {
+  background-color: #D96237;
+}
+.appointment-area .appoinment-content h2 {
+  font-size: 38px;
+  line-height: 52px;
+  margin: 0;
+  color: #fff;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.appointment-area .appoinment-content P {
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+}
+.appointment-area .appoinment-content .apponiment-button a {
+  background-color: #fff;
+  color: #D96237;
+  margin-top: 20px;
+}
+
+@media (max-width: 575.98px) {
+  .appointment-area .appoinment-content h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .appointment-area .appoinment-content p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .appointment-area .appoinment-content h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+}
+.footer-area {
+  background-color: #21354E;
+}
+.footer-area .footer-logo img {
+  width: 170px;
+  height: auto;
+}
+.footer-area .footer-logo .footer-button {
+  margin-top: 40px;
+}
+.footer-area .footer-procedures h4 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+.footer-area .footer-procedures ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-area .footer-procedures ul li {
+  display: block;
+}
+.footer-area .footer-procedures ul li a {
+  display: block;
+  color: #f2f2f2;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.footer-area .footer-procedures ul li a:hover {
+  color: #D96237;
+}
+.footer-area .footer {
+  margin-bottom: 60px;
+}
+.footer-area .copyright p {
+  padding: 30px;
+  border-top: 1.5px solid #E0E0E0;
+  font-size: 18px;
+  color: #E0E0E0;
+  text-transform: uppercase;
+}
+
+.scroll-top-button {
+  position: fixed;
+  bottom: 0;
+  right: 60px;
+  background-color: #D96237;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 20px;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+.scroll-top-button:hover {
+  background-color: #E44810;
+  color: #fff;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .scroll-top-button {
+    right: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .footer-area .footer-logo {
+    margin-bottom: 50px;
+  }
+
+  .scroll-top-button {
+    right: 15px;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer-area .footer {
+    margin-bottom: 50px;
+  }
+
+  .scroll-top-button {
+    right: 10px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .footer-area .footer-logo {
+    margin-bottom: 50px;
+  }
+
+  .scroll-top-button {
+    right: 10px;
   }
 }
 
