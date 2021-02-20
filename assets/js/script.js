@@ -84,18 +84,52 @@
 	// Sknp Slider
 	$('.skin-slider').owlCarousel({
 		loop:true,
-		margin:10,
 		nav:true,
+		navText: ['<i class="far fa-arrow-left"></i>','<i class="far fa-arrow-right"></i>'],
+		dots:false,
+		autoplay:true,
+		autoplayTimeout:10000,
+		autoplayHoverPause:true,
 		responsive:{
 			0:{
+				items:1
+			},
+			100: {
+				items:1
+			},
+			200: {
+				items:1
+			},
+			300:{
+				items:1
+			},
+			400:{
+				items:1
+			},
+			500:{
 				items:1
 			},
 			600:{
 				items:1
 			},
+			700:{
+				items:1
+			},
+			800:{
+				items:2
+			},
+			900:{
+				items:2
+			},
 			1000:{
+				items:2
+			},
+			1100:{
+				items:2
+			},
+			1200:{
 				items:3
-			}
+			},
 		}
 	})
 

@@ -40,5 +40,188 @@
         margin-left: 20px;
         margin-top: 40px;
         margin-bottom: 80px;
+
+        p {
+            font-size: 18px;
+            line-height: 30px;
+            color: #7D90A6;
+            border-bottom: 1px solid #7D90A6;
+            padding-bottom: 20px;
+        }
+        .client-details {
+            position: relative;
+            a {
+                font-size: 18px;
+                color: #21354E;
+                font-weight: 400;
+                display: inline-block;
+            }
+            span {
+                display: block;
+                font-size: 14px;
+                color: #7D90A6;
+                margin-top: 5px;
+            }
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                right: 0;
+
+                li {
+                    display: inline-block;
+                    color: #FFBA60;
+                    font-size: 16px;
+                    margin-left: 5px;
+                }
+            }
+        }
     }
 }
+
+.skin-slider {
+    // .owl-dots {
+    //     position: absolute;
+    //     left: 50%;
+    //     transform: translateX(-50%);
+    //     bottom: 0px;
+
+    //     .owl-dot {
+    //         background-color: #C4C4C4 !important;
+    //         width: 20px;
+    //         height: 20px;
+    //         margin-right: 5px;
+    //         border-radius: 50%;
+    //     }
+    //     .active {
+    //         background-color: $theme-color !important;
+    //         width: 40px;
+    //         height: 20px;
+    //         border-radius: 10px;
+    //     }
+    // }
+
+    .owl-nav {
+        position: absolute;
+        content: "";
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+
+        .owl-next {
+            color: #fff !important;
+            margin-left: 10px;
+            font-size: 20px !important;
+            background-color: $theme-color !important;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 1px solid transparent !important;
+            @include transition(0.3s);
+
+            &:hover {
+                color: $theme-color !important;
+                background-color: #fff !important;
+                box-shadow: 0px 35px 55px rgba(75, 75, 75, 0.26);
+                border: 1.5px solid $theme-color !important;
+            }
+        }
+        .owl-prev {
+            color: #fff !important;
+            margin-right: 10px;
+            font-size: 20px !important;
+            background-color: $theme-color !important;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 1px solid transparent !important;
+            @include transition(0.3s);
+
+            &:hover {
+                color: $theme-color !important;
+                background-color: #fff !important;
+                box-shadow: 0px 35px 55px rgba(75, 75, 75, 0.26);
+                border: 1.5px solid $theme-color !important;
+            }
+        }
+    }
+}
+
+
+
+// Responsive 
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+   
+    
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .skin-monials-area {
+        margin-top: 0;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+    .skin-monials-area {
+        margin-top: 0;
+        padding-bottom: 30px;
+        .skin-slider {
+            .single-slider {
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+ 
+    .skin-monials-area {
+        margin-top: 0;
+        padding-bottom: 30px;
+
+        .skin-monials-title {
+            h2 {
+                font-size: 30px;
+                padding-bottom: 10px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .skin-monials-area {
+        background-color: rebeccapurple;
+    }
+    .skin-monials-area {
+        margin-top: 0;
+        padding-bottom: 30px;
+
+        .skin-monials-title {
+            h2 {
+                font-size: 30px;
+                padding-bottom: 10px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+    }
+}
+ 
