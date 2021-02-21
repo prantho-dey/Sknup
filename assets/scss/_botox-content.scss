@@ -1,0 +1,59 @@
+.botox-content-area {
+    .content {
+        p {
+            font-size: 18px;
+            color: #21354E;
+            line-height: 30px;
+            padding-bottom: 70px;
+            text-align: justify;
+
+            &::first-letter {
+                font-size: 100px;
+                font-weight: 600;
+                line-height: 1;
+                margin-top: 20px !important; 
+            }
+        }
+    }
+    .botox-image {
+        img {
+            max-width: 100%;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+// Responsive 
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .botox-content-area {
+        .content {
+            p {
+                font-size: 16px;
+                line-height: 27px;
+    
+                &::first-letter {
+                    font-size: 70px;
+                }
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .botox-content-area {
+        .content {
+            p {
+                font-size: 17px;
+                line-height: 28px;
+    
+                &::first-letter {
+                    font-size: 60px;
+                }
+            }
+        }
+    }
+}

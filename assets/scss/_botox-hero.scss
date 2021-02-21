@@ -1,0 +1,163 @@
+.botox-hero {
+    background-color: $theme-color;
+    position: relative;
+
+    .hero-content {
+        padding-top: 80px;
+        padding-bottom: 52px;
+        position: relative;
+        z-index: 99;
+
+        span {
+            color: #fff;
+            font-weight: bold;
+            font-size: 22px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+        h2 {
+            font-weight: bold;
+            font-size: 44px;
+            line-height: 52px;
+            color: #fff;
+            padding-right: 50px;
+            margin: 0;
+            padding-bottom: 30px;
+            padding-top: 15px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 30px;
+            color: #fff;
+            padding-right: 220px;
+        }
+    }
+    .hero-image {
+        position: absolute;
+        bottom: 0;
+        right: 59px;
+        background-size: cover;
+        background-position: right;
+    }
+}
+.hero-button {
+    a {
+        background-color: #fff;
+        color: $theme-color;
+
+        &:hover {
+            background-color: #fff;
+            color: $theme-color;
+        }
+    }
+}
+
+// Breadcrumb
+.breadcrumb-area {
+    .breadcrumb {
+        margin: 30px 0;
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                display: inline-block;
+                font-size: 18px;
+                color: #21354E;
+                margin-right: 5px;
+                i {
+                    font-size: 20px;
+                    display: block;
+                }
+                a {
+                    color: $theme-color;
+
+                    &:hover {
+                        color: #FE4806;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+
+// Responsive 
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+   
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .botox-hero {
+        background-color: black;
+    }
+    .botox-hero {
+        .hero-content {
+            padding-bottom: 520px;
+        }
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .botox-hero {
+        .hero-content {
+            padding-bottom: 240px;
+            padding-top: 40px;
+            text-align: center;
+
+            span {
+                font-size: 18px;
+            }
+            h2 {
+                font-size: 30px;
+                line-height: 42px;
+                padding-right: 0;
+                padding-bottom: 15px;
+                padding-top: 10px;
+            }
+            p {
+                padding-right: 0px;
+                font-size: 16px;
+                line-height: 26px;
+            }
+            .hero-button {
+                a {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+   
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .botox-hero {
+        .hero-content {
+            padding-bottom: 440px;
+            text-align: center;
+
+            h2 {
+                padding-right: 0;
+            }
+            p {
+                padding-right: 0px;
+            }
+        }
+    }
+  
+    
+}
+ 
+ 

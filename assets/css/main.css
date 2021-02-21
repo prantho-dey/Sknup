@@ -1586,6 +1586,164 @@ label {
     line-height: 45px;
   }
 }
+.botox-hero {
+  background-color: #D96237;
+  position: relative;
+}
+.botox-hero .hero-content {
+  padding-top: 80px;
+  padding-bottom: 52px;
+  position: relative;
+  z-index: 99;
+}
+.botox-hero .hero-content span {
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.botox-hero .hero-content h2 {
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 52px;
+  color: #fff;
+  padding-right: 50px;
+  margin: 0;
+  padding-bottom: 30px;
+  padding-top: 15px;
+}
+.botox-hero .hero-content p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+  padding-right: 220px;
+}
+.botox-hero .hero-image {
+  position: absolute;
+  bottom: 0;
+  right: 59px;
+  background-size: cover;
+  background-position: right;
+}
+
+.hero-button a {
+  background-color: #fff;
+  color: #D96237;
+}
+.hero-button a:hover {
+  background-color: #fff;
+  color: #D96237;
+}
+
+.breadcrumb-area .breadcrumb {
+  margin: 30px 0;
+}
+.breadcrumb-area .breadcrumb ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.breadcrumb-area .breadcrumb ul li {
+  display: inline-block;
+  font-size: 18px;
+  color: #21354E;
+  margin-right: 5px;
+}
+.breadcrumb-area .breadcrumb ul li i {
+  font-size: 20px;
+  display: block;
+}
+.breadcrumb-area .breadcrumb ul li a {
+  color: #D96237;
+}
+.breadcrumb-area .breadcrumb ul li a:hover {
+  color: #FE4806;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .botox-hero {
+    background-color: black;
+  }
+
+  .botox-hero .hero-content {
+    padding-bottom: 520px;
+  }
+}
+@media (max-width: 575.98px) {
+  .botox-hero .hero-content {
+    padding-bottom: 240px;
+    padding-top: 40px;
+    text-align: center;
+  }
+  .botox-hero .hero-content span {
+    font-size: 18px;
+  }
+  .botox-hero .hero-content h2 {
+    font-size: 30px;
+    line-height: 42px;
+    padding-right: 0;
+    padding-bottom: 15px;
+    padding-top: 10px;
+  }
+  .botox-hero .hero-content p {
+    padding-right: 0px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .botox-hero .hero-content .hero-button a {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .botox-hero .hero-content {
+    padding-bottom: 440px;
+    text-align: center;
+  }
+  .botox-hero .hero-content h2 {
+    padding-right: 0;
+  }
+  .botox-hero .hero-content p {
+    padding-right: 0px;
+  }
+}
+.botox-content-area .content p {
+  font-size: 18px;
+  color: #21354E;
+  line-height: 30px;
+  padding-bottom: 70px;
+  text-align: justify;
+}
+.botox-content-area .content p::first-letter {
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 1;
+  margin-top: 20px !important;
+}
+.botox-content-area .botox-image img {
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 575.98px) {
+  .botox-content-area .content p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+  .botox-content-area .content p::first-letter {
+    font-size: 70px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .botox-content-area .content p {
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .botox-content-area .content p::first-letter {
+    font-size: 60px;
+  }
+}
 .footer-area {
   background-color: #21354E;
 }
