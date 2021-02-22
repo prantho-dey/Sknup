@@ -1,0 +1,106 @@
+.microneedling-hero {
+    background-color: #F39C81;
+    .microneedling-hero-image {
+        position: absolute;
+        bottom: 0;
+        right: 59px;
+        background-size: cover;
+        background-position: right;
+        width: 900px;
+    }
+}
+
+.microneedling-content-area {
+    .content {
+        h3 {
+            font-weight: bold;  
+            font-size: 34px;
+            line-height: 44px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: $heading-color;
+        }
+        .single-content {
+            h5 {
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+// Responsive 
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    .microneedling-hero {
+        .microneedling-hero-image {
+            width: 750px;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .microneedling-hero {
+        .microneedling-hero-image {
+            width: 670px;
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .microneedling-hero {
+        .microneedling-hero-image {
+            right: 0;
+            width: 100%;
+        }
+    }
+    .microneedling-content-area {
+        padding-bottom: 60px;
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .microneedling-hero {
+        .microneedling-hero-image {
+            right: 0;
+            width: 100%;
+        }
+    }
+
+    .microneedling-content-area {
+        padding-bottom: 60px;
+        .content {
+            h3 {
+                font-size: 26px;
+                line-height: 36px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 26px;
+            }
+            .single-content {
+                h5 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .microneedling-hero {
+        .microneedling-hero-image {
+            right: 0;
+            width: 100%;
+        }
+    }
+}
+ 
+ 

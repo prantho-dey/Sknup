@@ -1951,6 +1951,99 @@ label {
     right: 0;
   }
 }
+.microneedling-hero {
+  background-color: #F39C81;
+}
+.microneedling-hero .microneedling-hero-image {
+  position: absolute;
+  bottom: 0;
+  right: 59px;
+  background-size: cover;
+  background-position: right;
+  width: 900px;
+}
+
+.microneedling-content-area .content h3 {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 44px;
+}
+.microneedling-content-area .content p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #21354E;
+}
+.microneedling-content-area .content .single-content h5 {
+  font-size: 24px;
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .microneedling-hero .microneedling-hero-image {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .microneedling-hero .microneedling-hero-image {
+    width: 670px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .microneedling-hero .microneedling-hero-image {
+    right: 0;
+    width: 100%;
+  }
+
+  .microneedling-content-area {
+    padding-bottom: 60px;
+  }
+}
+@media (max-width: 575.98px) {
+  .microneedling-hero .microneedling-hero-image {
+    right: 0;
+    width: 100%;
+  }
+
+  .microneedling-content-area {
+    padding-bottom: 60px;
+  }
+  .microneedling-content-area .content h3 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .microneedling-content-area .content p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .microneedling-content-area .content .single-content h5 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .microneedling-hero .microneedling-hero-image {
+    right: 0;
+    width: 100%;
+  }
+}
+.sclerotherapy-hero {
+  background-color: #21354E;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .botox-hero .hero-content {
+    padding-bottom: 374px;
+  }
+}
+@media (max-width: 575.98px) {
+  .botox-hero .hero-content {
+    padding-bottom: 200px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .botox-hero .hero-content {
+    padding-bottom: 300px;
+  }
+}
 .footer-area {
   background-color: #21354E;
 }
