@@ -1744,6 +1744,146 @@ label {
     font-size: 60px;
   }
 }
+.accordion-area .accordion-title h1 {
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0;
+  padding-bottom: 30px;
+}
+.accordion-area .accordion-title p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #21354E;
+}
+.accordion-area .accordion-tab {
+  background: #FAFAFF;
+  border: 1px solid #E2E2E6;
+  border-radius: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.accordion-area .accordion-tab .accordion-toogle {
+  display: none;
+}
+.accordion-area .accordion-tab .accordion-toogle:checked ~ .spinner-1 {
+  opacity: 0;
+}
+.accordion-area .accordion-tab .accordion-toogle:checked ~ .accordion-content {
+  max-height: 100vh;
+}
+.accordion-area .accordion-tab label {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #21354E;
+  padding-right: 40px;
+}
+.accordion-area .accordion-tab label .spinner-icon {
+  position: absolute;
+  top: 28px;
+  width: 30px;
+  height: 30px;
+  right: 40px;
+  z-index: 99;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+.accordion-area .accordion-tab label .spinner-icon .spinner {
+  height: 4px;
+  background-color: #21354E;
+  margin-top: 14px;
+  border-radius: 10px;
+}
+.accordion-area .accordion-tab label .spinner-icon .spinner-1 {
+  margin-bottom: -18px;
+  transform: rotate(90deg);
+}
+.accordion-area .accordion-tab .accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: all 0.7s linear 0s;
+  -moz-transition: all 0.7s linear 0s;
+  -ms-transition: all 0.7s linear 0s;
+  -o-transition: all 0.7s linear 0s;
+  transition: all 0.7s linear 0s;
+}
+.accordion-area .accordion-tab .accordion-content p {
+  font-size: 18px;
+  line-height: 30px;
+  padding-top: 20px;
+  color: #7D90A6;
+}
+.accordion-area .accordion-tab .accordion-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.accordion-area .accordion-tab .accordion-content ul li {
+  font-size: 18px;
+  line-height: 30px;
+  padding-top: 10px;
+  color: #7D90A6;
+}
+
+@media (max-width: 575.98px) {
+  .accordion-area .accordion-title h1 {
+    font-size: 35px;
+    line-height: 10px;
+  }
+  .accordion-area .accordion-title p {
+    font-size: 16px;
+  }
+  .accordion-area .accordion-tab {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .accordion-area .accordion-tab label {
+    font-size: 18px;
+    line-height: 30px;
+    padding-right: 60px;
+  }
+  .accordion-area .accordion-tab label .spinner-icon {
+    top: 19px;
+    width: 20px;
+    height: 20px;
+    right: 20px;
+  }
+  .accordion-area .accordion-tab label .spinner-icon .spinner {
+    height: 2px;
+    margin-top: 16.5px;
+  }
+  .accordion-area .accordion-tab .accordion-content p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .accordion-area .accordion-tab {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .accordion-area .accordion-tab label {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .accordion-area .accordion-tab label .spinner-icon {
+    top: 19px;
+    width: 20px;
+    height: 20px;
+    right: 20px;
+  }
+  .accordion-area .accordion-tab label .spinner-icon .spinner {
+    height: 2px;
+    margin-top: 16.5px;
+  }
+}
 .footer-area {
   background-color: #21354E;
 }
