@@ -1662,10 +1662,6 @@ label {
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .botox-hero {
-    background-color: black;
-  }
-
   .botox-hero .hero-content {
     padding-bottom: 520px;
   }
@@ -2042,6 +2038,40 @@ label {
 @media (min-width: 576px) and (max-width: 767.98px) {
   .botox-hero .hero-content {
     padding-bottom: 300px;
+  }
+}
+.platelet-hero .hero-image {
+  width: 900px;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .platelet-hero .hero-image {
+    width: 900px;
+    right: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .platelet-hero .hero-image {
+    width: 900px;
+    right: 0;
+  }
+}
+@media (max-width: 575.98px) {
+  .platelet-hero .hero-image {
+    width: 500px;
+    right: 0;
+  }
+  .platelet-hero .hero-content {
+    padding-bottom: 300px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .platelet-hero .hero-image {
+    width: 700px;
+    right: 0;
+  }
+  .platelet-hero .hero-content {
+    padding-bottom: 400px;
   }
 }
 .footer-area {
