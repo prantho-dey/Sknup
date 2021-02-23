@@ -2151,6 +2151,9 @@ label {
 .contact-hero {
   background-color: #F39C81;
 }
+.contact-hero .contact-image {
+  width: 1000px;
+}
 .contact-hero .contact-content {
   padding-bottom: 250px;
 }
@@ -2230,6 +2233,10 @@ label {
   .contact-hero .contact-content {
     padding-bottom: 180px;
   }
+  .contact-hero .contact-image {
+    width: 460px;
+    right: 0px;
+  }
 
   .contact-area .contact-title h2 {
     font-size: 30px;
@@ -2250,6 +2257,11 @@ label {
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .contact-hero .contact-image {
+    width: 600px;
+    right: 115px;
+  }
+
   .contact-area .contact-title h2 {
     font-size: 36px;
     line-height: 46px;
